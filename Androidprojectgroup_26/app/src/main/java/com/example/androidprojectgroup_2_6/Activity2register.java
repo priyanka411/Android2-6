@@ -15,7 +15,7 @@ public class Activity2register extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity2_register);
-        submit=(Button)findViewById(R.id.button);
+        submit=(Button)findViewById(R.id.submit);
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -26,7 +26,7 @@ public class Activity2register extends AppCompatActivity {
     //        Intent ini=getIntent();
     public void thanks()
     {
-        Intent in=new Intent(this,Activity2thanks.class);
+        Intent in=new Intent(this,Activity3.class);
         startActivity(in);
 
     }
