@@ -41,7 +41,7 @@ public class Activity2 extends AppCompatActivity {
 
     public void Activity3(){
 
-        Intent in2=new Intent(this, Activity3.class);
+        Intent in2=new Intent(this, Activity2thanks.class);
         startActivity(in2);
     }
 }
