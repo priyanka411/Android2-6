@@ -9,7 +9,7 @@
         android:id="@+id/TV1"
         android:layout_width="113dp"
         android:layout_height="43dp"
-        android:text="Chik- Fil- A"
+        android:text="Chick- Fil- A"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.385"
