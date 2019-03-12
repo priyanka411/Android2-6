@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="stations">
+        <item>Chick-Fil-A</item>
+        <item>Mooyah</item>
+        <item>Zen</item>
+    </string-array>
+</resources>
