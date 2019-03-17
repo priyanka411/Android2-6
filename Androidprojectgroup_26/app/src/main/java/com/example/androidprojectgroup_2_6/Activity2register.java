@@ -17,32 +17,26 @@ public class Activity2register extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity2_register);
         submit=(Button)findViewById(R.id.submit);
-        RadioButton user=(RadioButton)findViewById(R.id.userrb);
-        RadioButton vendor=(RadioButton)findViewById(R.id.Vendorrb);
-        if(vendor.isChecked())
-        {
+       final RadioButton user=(RadioButton)findViewById(R.id.userrb);
+        final RadioButton vendor=(RadioButton)findViewById(R.id.Vendorrb);
+
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                thanks();
-
+                if(vendor.isChecked()) {
+                    thanks();
+                }
+                else  if(user.isChecked()){
+                    comment();
+                }
             }
-        });}
-    if(user.isChecked())
-    {
-        submit.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                comment();
-
-            }
-    }}
+        });
 
     }
 
     public void comment()
     {
-        Intent in=new Intent(this,Activity3.class);
+        Intent in=new Intent(this,Activity2thanks.class);
         startActivity(in);
 
     }
