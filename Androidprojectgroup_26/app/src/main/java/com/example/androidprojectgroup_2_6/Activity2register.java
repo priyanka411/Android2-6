@@ -12,7 +12,7 @@ import android.widget.Toast;
 
 
 public class Activity2register extends AppCompatActivity {
-    Button submit;
+    Button submit, b2;
     EditText e1, e2, e3;
     DataBaseHelper db;
 
@@ -25,11 +25,18 @@ public class Activity2register extends AppCompatActivity {
         e1=(EditText)findViewById(R.id.email);
         e2=(EditText)findViewById(R.id.password);
         e3=(EditText)findViewById(R.id.confirmpassword);
+        b2=(Button)findViewById(R.id.button6);
 
         submit=(Button)findViewById(R.id.submit);
        final RadioButton user=(RadioButton)findViewById(R.id.userrb);
         final RadioButton vendor=(RadioButton)findViewById(R.id.Vendorrb);
-
+    b2.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            Intent i=new Intent(Activity2register.this, Activity2.class);
+            startActivity(i);
+        }
+    });
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
