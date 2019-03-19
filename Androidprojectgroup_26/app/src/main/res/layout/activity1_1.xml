@@ -40,15 +40,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-    android:id="@+id/imageView2"
-    android:layout_width="381dp"
-    android:layout_height="527dp"
-    android:layout_marginStart="12dp"
-    app:layout_constraintBottom_toBottomOf="parent"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toTopOf="parent"
-    app:layout_constraintVertical_bias="0.421"
-    app:srcCompat="@drawable/comment" />
+    <!--<ImageView-->
+    <!--android:id="@+id/imageView2"-->
+    <!--android:layout_width="381dp"-->
+    <!--android:layout_height="527dp"-->
+    <!--android:layout_marginStart="12dp"-->
+    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--app:layout_constraintStart_toStartOf="parent"-->
+    <!--app:layout_constraintTop_toTopOf="parent"-->
+    <!--app:layout_constraintVertical_bias="0.421"-->
+    <!--app:srcCompat="@drawable/comment" />-->
 
 </android.support.constraint.ConstraintLayout>
