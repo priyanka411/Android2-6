@@ -36,7 +36,7 @@ public class Activity2 extends AppCompatActivity {
                 Activity3();}
                 else {
                     Toast.makeText(getApplicationContext(), "Wrong email or password", Toast.LENGTH_SHORT).show();
-                }                 
+                }
 
             }
         });
