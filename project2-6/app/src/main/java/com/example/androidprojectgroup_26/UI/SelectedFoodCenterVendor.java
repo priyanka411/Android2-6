@@ -1,12 +1,11 @@
 package com.example.androidprojectgroup_26.UI;
-
+CODE AX
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageView;
-
 import com.example.androidprojectgroup_26.Adapters.RattingAdapters;
 import com.example.androidprojectgroup_26.Database.DatabaseHandler;
 import com.example.androidprojectgroup_26.Objects.Ratting;
