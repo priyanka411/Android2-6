@@ -1,5 +1,5 @@
 package com.example.androidprojectgroup_26.UI;
-CODE AX
+
 
 import android.content.Intent;
 import android.os.Bundle;
