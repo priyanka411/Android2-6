@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.geeksera.androidprojectgroup_2_6">
+    package="com.example.androidprojectgroup_2_6">
 
     <application
         android:name=".Session.MyApplication"
