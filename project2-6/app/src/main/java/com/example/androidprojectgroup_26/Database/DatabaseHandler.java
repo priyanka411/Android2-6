@@ -6,8 +6,8 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-import com.example.androidprojectgroup_2_6.Objects.Ratting;
-import com.example.androidprojectgroup_2_6.Objects.user;
+import com.example.androidprojectgroup_26.Objects.Ratting;
+import com.example.androidprojectgroup_26.Objects.user;
 
 import java.util.ArrayList;
 import java.util.List;
