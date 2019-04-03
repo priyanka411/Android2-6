@@ -6,7 +6,7 @@ public class MyApplication extends Application {
 
     String SelectedFoodCenterName, SelectedFoodCenterID;
     int SelectedFoodCenterImage;
-    com.example.androidprojectgroup_2_6.Objects.user user = null;
+    com.example.androidprojectgroup_26.Objects.User user = null;
 
 
     @Override
@@ -38,11 +38,11 @@ public class MyApplication extends Application {
         SelectedFoodCenterImage = selectedFoodCenterImage;
     }
 
-    public com.example.androidprojectgroup_2_6.Objects.user getUser() {
+    public com.example.androidprojectgroup_26.Objects.User getUser() {
         return user;
     }
 
-    public void setUser(com.example.androidprojectgroup_2_6.Objects.user user) {
+    public void setUser(com.example.androidprojectgroup_26.Objects.User user) {
         this.user = user;
     }
 }
