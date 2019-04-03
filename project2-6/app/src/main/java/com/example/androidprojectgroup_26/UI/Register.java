@@ -9,8 +9,12 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.example.androidprojectgroup_26.Database.DatabaseHandler;
+import com.example.androidprojectgroup_26.Objects.User;
 import com.example.androidprojectgroup_26.Session.MyApplication;
 import com.example.androidprojectgroup_2_6.R;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class Register extends AppCompatActivity {
 
@@ -65,14 +69,14 @@ public class Register extends AppCompatActivity {
                     return;
                 }
 
-                for (com.example.androidprojectgroup_2_6.Objects.user user : databaseHandler.getAllusers()) {
+                for (com.example.androidprojectgroup_26.Objects.User user : databaseHandler.getAllusers()) {
                     if (Email.getText().toString().equals(user.getEmail())) {
                         Toast.makeText(getApplicationContext(), "Email Already Exist", Toast.LENGTH_LONG).show();
                         Email.setError("Email Already Exist");
                         return;
                     }
                 }
-                user user = new user();
+                User user = new user();
                 user.setPassword(Password.getText().toString());
                 user.setEmail(Email.getText().toString());
                 user.setName(Name.getText().toString());
