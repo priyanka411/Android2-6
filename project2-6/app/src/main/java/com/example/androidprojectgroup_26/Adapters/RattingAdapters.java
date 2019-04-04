@@ -64,9 +64,11 @@ public class RattingAdapters extends RecyclerView.Adapter<RattingAdapters.viewHo
         holder.Date.setText(DateFormat.getDateTimeInstance().format(calendar.getTime()));
     }
 
+    @Override
+    public int getItemCount() {
+        return rattings.size();
+    }
 
 
-
-        }
     }
 }
