@@ -64,23 +64,7 @@ public class RattingAdapters extends RecyclerView.Adapter<RattingAdapters.viewHo
         holder.Date.setText(DateFormat.getDateTimeInstance().format(calendar.getTime()));
     }
 
-    @Override
-    public int getItemCount() {
-        return rattings.size();
-    }
 
-    class viewHolder extends RecyclerView.ViewHolder {
-
-
-        TextView Name, Message, Date;
-        MaterialRatingBar materialRatingBar;
-
-        viewHolder(View itemView) {
-            super(itemView);
-            Name = itemView.findViewById(R.id.Name);
-            Message = itemView.findViewById(R.id.Message);
-            Date = itemView.findViewById(R.id.Date);
-            materialRatingBar = itemView.findViewById(R.id.Ratting);
 
 
         }
