@@ -1,3 +1,14 @@
+# Project Title
+
+Rating App
+
+## Group Members
+* Priyanka Bonam
+* Zaiba Ali
+* Meghna
+* Himabindu
+
+
 # Android2-6
 
 
