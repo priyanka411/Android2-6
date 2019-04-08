@@ -41,9 +41,9 @@ Icon for our app:
      * Layouts- Activity main, thanku, Activity SelectedfoddCenter(xml files)
 
 ### Himabindu Poshala
-     * MyApplication
-     * UI- Register, SelectedfoddCentervendor
-     * Layouts-  Activity-register, Activity SelectedfoddCentervendor
+     * MyApplication - Comments are added by logging into user account with email ID and password.For password it will ask to confirm the password twice.We can add comments to respective stations with the login details.
+     *JAVA Files are Register, SelectedfoddCentervendor
+     *xml files are Register, Activity SelectedfoddCentervendor
 
 ### DataBase
 SQlite
