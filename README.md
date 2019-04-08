@@ -10,10 +10,6 @@ Icon for our app:
 
 ![logo](https://github.com/priyanka411/Android2-6/blob/master/logo.png)
 
-Name of our app:
-
-What's Good Here
-
 
 ## Group Members
 * Priyanka Bonam
@@ -23,10 +19,16 @@ What's Good Here
 
 ## Activities
 ### Priyanka Bonam
-     * Database handler 
-     * Rating
-     * UI- Leave a comment, Login
-     * Layouts- Activity login, Activity-register, item_ratting
+     * Database handler- created a database to store the user login details, predefined vendor login details, and user comments, and food center details.
+     * Also, design interface to let user give comments along with rating
+     * For security purpose designed the app in a way that Vendors login details should match with the food center selection in dropdownlist in firstactivity(Example if you select mooyah in dropdownlist, and want to login as a vendor you can only login with mooyah credentials)
+     * Added logout functionality
+     Database used-SQLite
+     * Rating- used MaterialRatingBar API which I found in github(https://github.com/DreaminginCodeZH/MaterialRatingBar)
+     * Java files I worked:
+               * Database handler
+               * Leave a comment
+               * Layouts- Activity login, Activity-register, item_ratting
 
 ### Zaiba Ali
      * Rating Adapters
@@ -45,9 +47,32 @@ What's Good Here
 
 ### DataBase
 SQlite
+MaterialRatingBar API for star rating
+hellocharts-android API for graphs
 
 
+### Predefined vendor login details
 
+Vendors login details should match with the food center selection in dropdownlist in firstactivity(Example if you select mooyah in dropdownlist, and want to login as a vendor you can only login with mooyah credentials)
+### Test credentials
 
+Users can register and login with email address to leave a comment
+for the vendors, here're the details:
+
+chcikfila@gmail.com
+password:chickfila
+
+mooyah@gmail.com
+password:mooyah
+
+zen@gmail.com
+password:zen
+
+einsteinbagels@gmail.com
+password:einsteinbagels
+
+### supported devices 
+
+Min api list 15, so app will work on 100% android devices (approximately)
 
 
