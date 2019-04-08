@@ -8,7 +8,7 @@ What's Good Here
 
 Icon for our app:
 
-
+![logo](https://github.com/priyanka411/Android2-6/blob/master/logo.png)
 
 Name of our app:
 
@@ -18,7 +18,7 @@ What's Good Here
 ## Group Members
 * Priyanka Bonam
 * Zaiba Ali
-* Meghna Putta
+* Meghana Putta
 * Himabindu Poshala
 
 ## Activities
