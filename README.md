@@ -1,8 +1,10 @@
 # Android2-6
 
-# Project Title
+## Project Title
 
 What's Good Here
+
+- It's a food rating app.
 
 
 ## Group Members
@@ -15,8 +17,7 @@ What's Good Here
 ### Priyanka Bonam
      * Database handler 
      * Rating
-     * UI- Leave a comment 
-     * Login
+     * UI- Leave a comment, Login
      * Layouts- Activity login, Activity-register, item_ratting
 
 ### Zaiba Ali
@@ -34,6 +35,8 @@ What's Good Here
      * UI- Register, SelectedfoddCentervendor
      * Layouts-  Activity-register, Activity SelectedfoddCentervendor
 
+### DataBase
+SQlite
 
 
 
