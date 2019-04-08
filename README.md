@@ -36,9 +36,9 @@ Icon for our app:
      * Layouts- Activity graph view, Activity splash
 
 ### Meghana Putta
-     * comment
-     * UI- MAinactivity, SelectedfoddCenter, Thanku
-     * Layouts- Activity main, thanku, Activity SelectedfoddCenter
+     * comment - Users can comment about their experiences in the food centers i.e., write remarks expressing like or dislike.
+     * UI- MAinactivity, SelectedfoddCenter, Thanku(java files)
+     * Layouts- Activity main, thanku, Activity SelectedfoddCenter(xml files)
 
 ### Himabindu Poshala
      * MyApplication
