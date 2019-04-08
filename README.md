@@ -10,7 +10,7 @@ Icon for our app:
 
 ![logo](https://github.com/priyanka411/Android2-6/blob/master/logo.png)
 
-
+### project repo- https://github.com/priyanka411/Android2-6/tree/master/project2-6 
 ## Group Members
 * Priyanka Bonam
 * Zaiba Ali
