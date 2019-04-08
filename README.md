@@ -6,6 +6,14 @@ What's Good Here
 
 - It's a food rating app.
 
+Icon for our app:
+
+
+
+Name of our app:
+
+What's Good Here
+
 
 ## Group Members
 * Priyanka Bonam
@@ -25,7 +33,7 @@ What's Good Here
      * UI- Graph view, Splash
      * Layouts- Activity graph view, Activity splash
 
-### Meghna Putta
+### Meghana Putta
      * comment
      * UI- MAinactivity, SelectedfoddCenter, Thanku
      * Layouts- Activity main, thanku, Activity SelectedfoddCenter
