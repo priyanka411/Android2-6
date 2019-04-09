@@ -20,11 +20,10 @@ import lib.kingja.switchbutton.SwitchMultiButton;
 public class Login extends AppCompatActivity {
 
 
-    Boolean Vender = false;
+    Boolean Vendor = false;
     EditText Email, Password;
     DatabaseHandler databaseHandler;
     MyApplication myApplication;
-
     String[] Emails = {"chcikfila@gmail.com", "mooyah@gmail.com", "einsteinbagels@gmail.com", "zen@gmail.com"};
     String[] Passwords = {"chickfila", "mooyah", "einsteinbagels", "zen"};
 
@@ -68,7 +67,7 @@ public class Login extends AppCompatActivity {
                     return;
                 }
 
-                if (Vender) {
+                if (Vendor) {
                     User user = new User();
                     user.setName("Vendor");
                     if (Emails[Integer.parseInt(myApplication.getSelectedFoodCenterID())].equals(Email.getText().toString().toLowerCase().trim()) && Passwords[Integer.parseInt(myApplication.getSelectedFoodCenterID())].equals(Password.getText().toString().toLowerCase().trim())) {
@@ -106,9 +105,9 @@ public class Login extends AppCompatActivity {
             public void onSwitch(int position, String tabText) {
 
                 if (position == 1) {
-                    Vender = true;
+                    Vendor = true;
                 } else {
-                    Vender = false;
+                    Vendor = false;
                 }
 
             }

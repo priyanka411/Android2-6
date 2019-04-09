@@ -30,7 +30,7 @@ public class LeaveComment extends AppCompatActivity {
         databaseHandler = new DatabaseHandler(this);
 
 
-        getSupportActionBar().setTitle("Leave Comment");
+        getSupportActionBar().setTitle("Leave a Comment");
         myApplication = (MyApplication) getApplicationContext();
 
 
