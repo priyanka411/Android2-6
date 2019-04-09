@@ -6,7 +6,7 @@ What's Good Here
 
 - It's a food rating app.
 
-Icon for our app:
+## Icon for our app:
 
 ![logo](https://github.com/priyanka411/Android2-6/blob/master/logo.png)
 
@@ -31,9 +31,12 @@ Icon for our app:
                * Layouts- Activity login, Activity-register, item_ratting
 
 ### Zaiba Ali
+     * vendor needs to login with vendor login id and passwaord and they will be able to see all the   comments and rating given by customers. Also, they can see graph which will be created     according to user ratings. 
      * Rating Adapters
      * UI- Graph view, Splash
      * Layouts- Activity graph view, Activity splash
+
+     * Api fo graph- https://github.com/lecho/hellocharts-android
 
 ### Meghana Putta
      * comment - Users can comment about their experiences in the food centers i.e., write remarks expressing like or dislike.
@@ -71,7 +74,7 @@ password:zen
 einsteinbagels@gmail.com
 password:einsteinbagels
 
-### supported devices 
+### Supported devices 
 
 Min api list 15, so app will work on 100% android devices (approximately)
 
