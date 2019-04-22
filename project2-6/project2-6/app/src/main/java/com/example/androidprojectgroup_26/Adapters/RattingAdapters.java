@@ -25,7 +25,6 @@ public class RattingAdapters extends RecyclerView.Adapter<RattingAdapters.viewHo
     List<Ratting> rattings;
     private LayoutInflater inflater;
     Activity context;
-
     MyApplication myApplication;
 
     public RattingAdapters(Activity context, List<Ratting> posts) {
