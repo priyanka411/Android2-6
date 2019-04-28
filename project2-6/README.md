@@ -59,8 +59,9 @@ hellocharts-android API for graphs
 Vendors login details should match with the food center selection in dropdownlist in firstactivity(Example if you select mooyah in dropdownlist, and want to login as a vendor you can only login with mooyah credentials)
 ### Test credentials
 
-Users can register and login with email address to leave a comment
-for the vendors, here're the details:
+For Users can register and login with email address to leave a comment
+
+-For the vendors, here're the details:
 
 chcikfila@gmail.com
 password:chickfila
